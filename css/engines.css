@@ -1,0 +1,92 @@
+.engines .engine1{
+    width: 70px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:4px;
+}
+.engine1 .a{
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    background-color: orangered;
+    border-radius: 50px;
+    z-index: -3;
+    margin-right: 0px;
+}
+.engine1 .b{
+    width: 20px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 50px;
+    z-index: -3;
+}
+
+
+.engines .engine2{
+    width: 60px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: px;
+}
+.engine2 .c{
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    background-color: orangered;
+    border-radius: 50px;
+    z-index: -3;
+}
+.engine2 .d{
+    width: 20px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 50px;
+    z-index: -3;
+    margin-top: -5px;
+}
+.flame{
+    /* top: 455px; */
+    /* left:0px; */
+    height: 10px;
+    width: 60px;
+    margin-left: 290px;
+    margin-top: -85px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(211, 159, 63);
+    animation: flame 0.3s linear infinite;
+    z-index: -4;
+}
+@keyframes flame{
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(50%);}
+    100%{transform: translateX(0%);}
+}
+.flame2{
+    /* top: 235px;
+    left:570px; */
+    height: 10px;
+    width: 60px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 25px;
+    border-radius: 70%;
+    background-color: rgb(211, 159, 63);
+    animation: flame 0.3s linear infinite;
+    z-index: -4;
+}
+/* @keyframes flame{
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(50%);}
+    100%{transform: translateX(0%);}
+} */

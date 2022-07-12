@@ -1,0 +1,22 @@
+
+.doors{
+    display: flex;
+}
+.doors .door{
+    height: 37px;
+    width: 20px;
+    border: 5px solid aquamarine;     
+    background-color: rgb(238, 174, 54);
+    border-radius: 8px;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.doors .door2{
+    height: 30px;
+    width: 15px;
+    border: 5px solid aquamarine;     
+    background-color:rgb(238, 174, 54);
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: -30px;
+}

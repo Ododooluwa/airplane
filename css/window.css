@@ -1,0 +1,51 @@
+.window .window1{
+    height: 15px;
+    width: 15px;
+    /* border: 1px solid; */
+    background-color: wheat;
+    border-radius: 4px;
+    margin-top: -47px;
+    margin-left: 460px;
+    margin-bottom:38px;
+    box-shadow:  20px 0px 1px wheat, 40px 0px 1px wheat, 
+    60px 0px 1px wheat, 80px 0px 1px wheat; 
+}
+.window .window2{
+    height: 15px;
+    width: 15px;
+    /* border: 1px solid; */
+    background-color: wheat;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 505px;
+    box-shadow:  20px 0px 1px wheat, 40px 0px 1px wheat, 
+    60px 0px 1px wheat , 80px 0px 1px wheat,
+    -80px 0px 1px wheat, -60px 0px 1px wheat,
+    -100px 0px 1px wheat, -120px 0px 1px wheat, 
+    -140px 0px 1px wheat, -160px 0px 1px wheat, 
+    -180px 0px 1px wheat, -200px 0px 1px wheat, 
+    -220px 0px 1px wheat, -240px 0px 1px wheat,
+    -260px 0px 1px wheat, -280px 0px 1px wheat, 
+    -300px 0px 1px wheat ; 
+}
+.window .window3{
+    height: 17px;
+    width: 17px;
+    border: 3px solid aquamarine;
+    background-color: wheat;
+    margin-left:645px;
+    margin-top: -72px;
+    border-top-right-radius: 900%;
+    border-bottom-left-radius: 200%;
+}
+.window .window4{
+    height: 12.6px;
+    width: 20px;
+    border: 3px solid aquamarine;
+    background-color: wheat;
+    margin-left: 617px;
+    margin-top: -19px;
+    border-top-left-radius: 900%;
+    border-top-right-radius: 300%;
+    border-bottom-left-radius: 200%;
+}

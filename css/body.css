@@ -1,0 +1,26 @@
+.head .body{
+    height: 160px;
+    width: 700px;
+    background-color: aqua;
+    border-bottom: 1px solid blue;
+    /* border: 1px solid red; */
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 600%;
+    /* border-top-left-radius: 900px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.head .nose{
+    height: 93px;
+    width: 100px;
+    background-color: aqua;
+    border-bottom: 1px solid blue;
+    /* border: 1px solid red; */
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-left: 640px;
+    margin-top: -94px;
+}

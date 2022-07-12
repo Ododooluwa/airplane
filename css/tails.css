@@ -1,0 +1,31 @@
+.tails .tail{
+    height: 140px;
+    width: 100px;
+    /* border: 1px solid red; */
+    border-top-right-radius: 100%;
+    margin-top: -420px;
+    background-color: aqua;
+    background: linear-gradient( blue, aqua);
+    /* border-right: 3px dotted black; */
+}
+.tail .detail{
+    height: 140px;
+    width: 60px;
+    border: 2px solid white;
+    border-top-right-radius: 100%;
+    margin-top: -410px;
+    /* background-color: aqua; */
+    /* border-right: 3px dotted black; */
+}
+
+.tails .tail2{
+    height: 70px;
+    width: 80px;
+    background-color: aqua;
+    background: linear-gradient(to right, rgb(29, 29, 226), aqua, aqua,aqua);
+    /* border: 1px solid red; */
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-left: -30px;
+    margin-top: 7px;
+}

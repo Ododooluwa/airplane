@@ -1,0 +1,55 @@
+.leftwings .lwing1{
+    height: 80px;
+    width: 50px;
+    /* border: 1px solid red; */
+    background-color: aqua;
+    background: linear-gradient(blue, aqua, aqua);
+    border-top-right-radius: 800%;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 900%;
+    margin-left: 340px;
+    margin-top: -220px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.leftwings .lwing2{
+    height: 40px;
+    width: 32px;
+    /* border: 1px solid red; */
+    background-color: rgb(31, 31, 247);
+    margin-left: 340px;
+    margin-top: -110px;
+    border-top-right-radius: 800%;
+}
+
+.rightwings .rwing1{
+    height: 160px;
+    width: 60px;
+    /* border: 1px solid red; */
+    background-color: aqua;
+    background: linear-gradient(aqua, aqua, blue);
+    /* border-top-right-radius: ; */
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 300%;
+    border-bottom-left-radius: 900%;
+    margin-left: 350px;
+    margin-top: 170px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top: 1px solid aquamarine;
+}
+.rightwings .rwing2{
+    height: 42px;
+    width: 25px;
+    /* border: 1px solid red; */
+    background-color: blue;
+    margin-left: 388px;
+    margin-top: -42px;
+    border-top-left-radius: 1000%;
+    border-bottom-right-radius: 200%;
+    border-bottom-left-radius: 150%;
+}
