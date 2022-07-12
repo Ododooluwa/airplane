@@ -28,7 +28,7 @@
     .inside{
         width: 800px;
         height: 280px;
-        border: 1px solid;
+        /* border: 1px solid; */
         align-items: center;
         justify-content: center;
         margin-top: 100px;
@@ -85,7 +85,7 @@
     .inside{
         width: 600px;
         height: 280px;
-        border: 1px solid;
+        /* border: 1px solid; */
         align-items: center;
         justify-content: center;
         margin-top: 100px;
@@ -234,11 +234,338 @@
     }
     
 }
+@media (max-width:630px){
+    .inside{
+        width: 300px;
+        height: 280px;
+        /* border: 1px solid; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 0px;
+        padding-left: 30px;
+    }
+    .head .body{
+        height: 160px;
+        width: 300px;
+        background-color: aqua;
+        border-bottom: 1px solid blue;
+        /* border: 1px solid red; */
+        border-top-right-radius: 400px;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 300%;
+        /* border-top-left-radius: 900px; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .head .nose{
+        height: 93px;
+        width: 60px;
+        background-color: aqua;
+        border-bottom: 1px solid blue;
+        /* border: 1px solid red; */
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+        margin-left: 250px;
+        margin-top: -94.5px;
+    }
+    .all .mountain{
+        /* border: 1px solid; */
+        position: absolute;
+        margin-top: 820px;
+        margin-left: -60px;
+        height: 300px;
+        width:104%;
+        background-image:url(./Mountain.svg);
+        background-repeat: repeat-x;
+        animation: mountain 3s linear infinite;
+    }
+    @keyframes mountain{
+        100%{
+            transform: translateX(20%);
+        }
+        /* 50%{
+            transform: translateX(2%);
+        } */
+        /* 100%{
+            transform: translateX(2%);
+        } */
+    }
+    .all .cloud{
+        /* border: 1px solid; */
+        position: absolute;
+        margin-top: -700px;
+        margin-left: -30px;
+        height: 100px;
+        width:100%;
+        background-image: url(./1527246125.svg);
+        background-repeat: repeat-x;
+        animation: cloud 3s linear infinite;
+    }
+    @keyframes cloud{
+        100%{
+            transform: translateX(4%);
+        }
+        /* 50%{
+            transform: translateX(2%);
+        } */
+        /* 100%{
+            transform: translateX(2%);
+        } */
+    }
+    .window .window1{
+        height: 15px;
+        width: 15px;
+        border: 1px solid;
+        background-color: wheat;
+        border-radius: 4px;
+        margin-top: -47px;
+        margin-left: 230px;
+        margin-bottom:40px;
+        box-shadow:  20px 0px 1px wheat, 40px 0px 1px wheat, 
+        60px 0px 1px wheat, 80px 0px 1px wheat; 
+    }
+    .window .window2{
+        height: 15px;
+        width: 15px;
+        /* border: 1px solid; */
+        background-color: wheat;
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-left: 320px;
+        box-shadow:  20px 0px 1px wheat, 40px 0px 1px wheat,
+        -80px 0px 1px wheat, -60px 0px 1px wheat,
+        -100px 0px 1px wheat ; 
+    }
+    .window .window3{
+        height: 17px;
+        width: 17px;
+        border: 3px solid rgb(255, 157, 127);
+        background-color: wheat;
+        margin-left:380px;
+        margin-top: -72px;
+        border-top-right-radius: 900%;
+        border-bottom-left-radius: 200%;
+    }
+    .window .window4{
+        height: 12.6px;
+        width: 20px;
+        border: 3px solid aquamarine;
+        background-color: wheat;
+        margin-left: 515px;
+        margin-top: -19px;
+        border-top-left-radius: 900%;
+        border-top-right-radius: 300%;
+        border-bottom-left-radius: 200%;
+    }
+    .doors{
+        display: flex;
+    }
+    .doors .door{
+        height: 27px;
+        width: 15px;
+        border: 5px solid aquamarine;     
+        background-color: rgb(238, 174, 54);
+        border-radius: 8px;
+        margin-left: -250px;
+        margin-top: 35px;
+    }
+    .doors .door2{
+        height: 27px;
+        width: 15px;
+        border: 5px solid aquamarine;     
+        background-color:rgb(238, 174, 54);
+        border-radius: 8px;
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+    .leftwings .lwing1{
+        height: 80px;
+        width: 50px;
+        /* border: 1px solid red; */
+        background-color: aqua;
+        background: linear-gradient(blue, aqua, aqua);
+        border-top-right-radius: 800%;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 900%;
+        margin-left: 140px;
+        margin-top: -220px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .leftwings .lwing2{
+        height: 40px;
+        width: 32px;
+        /* border: 1px solid red; */
+        background-color: rgb(31, 31, 247);
+        margin-left: 140px;
+        margin-top: -110px;
+        border-top-right-radius: 800%;
+    }
+    
+    .rightwings .rwing1{
+        height: 120px;
+        width: 60px;
+        /* border: 1px solid red; */
+        background-color: aqua;
+        background: linear-gradient(aqua, aqua, blue);
+        /* border-top-right-radius: ; */
+        border-bottom-right-radius: 100%;
+        border-top-left-radius: 300%;
+        border-bottom-left-radius: 900%;
+        margin-left: 150px;
+        margin-top: 170px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-top: 1px solid rgb(255, 153, 127);
+    }
+    .rightwings .rwing2{
+        height: 42px;
+        width: 25px;
+        /* border: 1px solid red; */
+        background-color: blue;
+        margin-left: 188px;
+        margin-top: -42px;
+        border-top-left-radius: 1000%;
+        border-bottom-right-radius: 200%;
+        border-bottom-left-radius: 150%;
+    }
+    .engines .engine1{
+        width: 70px;
+        height: 40px;
+        /* border: 1px solid red; */
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left:4px;
+    }
+    .engine1 .a{
+        width: 20px;
+        height: 20px;
+        border: 1px solid red;
+        background-color: orangered;
+        border-radius: 50px;
+        z-index: -3;
+        margin-right: 0px;
+    }
+    .engine1 .b{
+        width: 20px;
+        height: 30px;
+        border: 1px solid red;
+        background-color: yellow;
+        border-radius: 50px;
+        z-index: -3;
+    }
+    
+    
+    .engines .engine2{
+        width: 60px;
+        height: 40px;
+        /* border: 1px solid red; */
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: px;
+    }
+    .engine2 .c{
+        width: 20px;
+        height: 20px;
+        border: 1px solid red;
+        background-color: orangered;
+        border-radius: 50px;
+        z-index: -3;
+    }
+    .engine2 .d{
+        width: 20px;
+        height: 30px;
+        border: 1px solid red;
+        background-color: yellow;
+        border-radius: 50px;
+        z-index: -3;
+        margin-top: -5px;
+    }
+    .flame{
+        /* top: 455px; */
+        /* left:0px; */
+        height: 10px;
+        width: 60px;
+        margin-left: 90px;
+        margin-top: -64px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: rgb(211, 159, 63);
+        animation: flame 0.3s linear infinite;
+        z-index: -4;
+    }
+    @keyframes flame{
+        0%{transform: translateX(0%);}
+        50%{transform: translateX(50%);}
+        100%{transform: translateX(0%);}
+    }
+    .flame2{
+        /* top: 235px;
+        left:570px; */
+        height: 10px;
+        width: 60px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 25px;
+        border-radius: 70%;
+        background-color: rgb(211, 159, 63);
+        animation: flame 0.3s linear infinite;
+        z-index: -4;
+    }
+    /* @keyframes flame{
+        0%{transform: translateX(0%);}
+        50%{transform: translateX(50%);}
+        100%{transform: translateX(0%);}
+    } */
+    .tails .tail{
+        height: 140px;
+        width: 100px;
+        /* border: 1px solid red; */
+        border-top-right-radius: 100%;
+        margin-top: 40px;
+        background-color: aqua;
+        background: linear-gradient( blue, aqua);
+        /* border-right: 3px dotted black; */
+    }
+    .tail .detail{
+        height: 140px;
+        width: 60px;
+        border: 2px solid white;
+        border-top-right-radius: 100%;
+        margin-top: -410px;
+        /* background-color: aqua; */
+        /* border-right: 3px dotted black; */
+    }
+    
+    .tails .tail2{
+        height: 70px;
+        width: 80px;
+        background-color: aqua;
+        background: linear-gradient(to right, rgb(29, 29, 226), aqua, aqua,aqua);
+        /* border: 1px solid red; */
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        margin-left: -30px;
+        margin-top: 7px;
+    }
+
+}
 @media (max-width:375px){
     .inside{
         width: 300px;
         height: 280px;
-        border: 1px solid;
+        /* border: 1px solid; */
         align-items: center;
         justify-content: center;
         margin-top: 100px;
